@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+body {
+  background-color: #222;
+  color: #fff;
+  margin: 0;
+  padding: 0;}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto 30px auto;}
+
+.panel {
+  background-color: #fff;
+  color: #666;
+  box-shadow: 3px 4px 5px rgba(53, 53, 53, 0.9);
+  overflow: auto;}
+
+
+/********** LOGO **********/
+h1 {
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  margin: 18px auto 18px auto;
+  background-image: url('../img/dishonored-logo.png');
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;}
+
+/********** TYPOGRAPHY **********/
+body, button {
+    font-family: 'Jacques Francois', serif;}
+
+h2, h3 {
+  font-weight: normal;
+  margin: 0;}
+h2 {
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 230%;
+  line-height: 1em;
+  padding: 20px 0 0 20px;}
+
+
+p {
+  font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 1.4em;}
+
+a {
+    text-decoration: none;}
+
+
+
+/********** MAIN PICTURE **********/
+#photo-viewer {
+  position: relative;
+  height: 300px;
+  overflow: hidden;}
+
+#photo-viewer.is-loading:after {
+  content: url('../img/load.gif');
+  position: absolute;
+  top: 0;
+  left: 0;}
+
+
+
+
+/********** THUMBNAILS **********/
+#thumbnails {
+  margin: 10px 5px 0 0;
+  height: 60px;}
+
+a.active {
+  opacity: 0.3;}
+
+
+/********** PARTS OF PAGES **********/
+.gallery{
+  width: 400px;
+  padding: 20px;
+  float: left;}
+
+.description {
+  width: 180px;
+  float: right;
+  padding: 20px 20px 0 0;
+  font-size: 85%;
+  text-align: justify;
+  line-height: 1em;}
+
+.standfirst {
+  margin: 0;}
+
